@@ -1,5 +1,6 @@
 {
     "name": "tedo/hello",
+    "type": "library",
     "description": "Test Package of TeDo that says Hello",
     "authors": [
         {
@@ -14,7 +15,9 @@
     "autoload": {
         "psr-4": {
             "TeDo\\Hello\\": ""
-        }
-    },
-    "comment": "https://blog.jgrossi.com/2013/creating-your-first-composer-packagist-package/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
 }
