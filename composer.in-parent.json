@@ -4,17 +4,8 @@
   },
   "repositories": [
     {
-      "type": "package",
-      "package": {
-        "name": "tedo/hello",
-        "version": "0.3.0",
-        "type": "package",
-        "source": {
-          "url": "https://github.com/TeDo-Verlag/Hello.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
+      "type": "vcs",
+      "url": "https://github.com/TeDo-Verlag/Hello.git"
     }
   ]
 }
